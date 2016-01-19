@@ -71,11 +71,6 @@ input[type=text] {
 
 .button_confirm {
 	margin: 20px 0;
-	background: #eee;
-	margin-bottom: 10px;
-	width: 60%;
-	display: inline-block;
-	border: 1px solid #aaa;
 }
 
 .bg_img {
