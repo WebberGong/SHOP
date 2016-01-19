@@ -65,9 +65,9 @@
 }
 
 .userLogin_action_mode {
-	width: 70%;
-	height: 70%;
-	margin: 40px auto 0 auto;
+	width: 60%;
+	height: 60%;
+	margin: 0px auto 40px auto;
 	display: block;
 }
 
@@ -95,7 +95,7 @@
 }
 
 .prelogin_top {
-	padding-top: 0;
+	padding-top: 15%;
 }
 
 .prelogin_top_img {
@@ -105,6 +105,7 @@
 }
 
 .prelogin_top_url {
-	width: 80%;
-	height: 80%;
+	width: 60%;
+	height: 60%;
+	margin-top: 50px;
 }
