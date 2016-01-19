@@ -42,6 +42,10 @@
 	color: #fff;
 }
 
+.mine_statistics .mine_statistics_split {
+	height: 85px;
+}
+
 
 .mine_menu_container {
 	text-align: center;
