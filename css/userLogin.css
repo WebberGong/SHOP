@@ -72,12 +72,9 @@
 }
 
 .userLogin_action_split {
-	width: 100%;
-	height: 200px;
-	margin: 30px auto -100px auto;
-	background: #fff url(../image/userLogin/third_party.png) no-repeat -10px -50px scroll;
-	-moz-background-size: 100% 100%;
-	background-size: 100% 100%;
+	width: 80%;
+	height: 26px;
+	margin: 100px 0 20px 0;
 }
 
 .userLogin_action_thirdParty {
@@ -94,6 +91,7 @@
 .prelogin {
 	position: absolute;
 	top: 0;
+	text-align: center;
 }
 
 .prelogin_top {
