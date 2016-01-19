@@ -6,6 +6,8 @@ body {
 	padding: 0 0;
 	font-family: "微软雅黑";
 	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
 }
 
 a:link {
@@ -146,8 +148,5 @@ input[type=checkbox] {
 
 .footer img {
 	height: 130px;
-}
-
-.footer_offset {
 	margin-top: -20px;
 }
