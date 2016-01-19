@@ -12,37 +12,37 @@ body {
 
 a:link {
 	color: #e3176c;
-	text-decoration:underline;
+	text-decoration: underline;
 }
 
 a:visited {
 	color: red;
-	text-decoration:none;
+	text-decoration: none;
 }
 
 a:hover {
 	color: blue;
-	text-decoration:none;
+	text-decoration: none;
 }
 
 a:active {
 	color: darkgreen;
-	text-decoration:none;
+	text-decoration: none;
 }
 
 input[type=checkbox] {
-    width: 40px;
-    height: 40px;
-    vertical-align: middle;
+	width: 40px;
+	height: 40px;
+	vertical-align: middle;
 }
 
 input[type=text] {
-    border-top: 0;
-    border-left: 0;
-    border-right: 0;
-    border-bottom: 2px solid #333;
-    outline: medium;
-    padding: 5px;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 2px solid #333;
+	outline: none;
+	background: transparent;
 }
 
 .input_container {
