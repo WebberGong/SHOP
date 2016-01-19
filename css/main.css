@@ -36,10 +36,17 @@ input[type=checkbox] {
     vertical-align: middle;
 }
 
+input[type=text] {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 2px solid #333;
+    outline: none;
+}
+
 .input_container {
 	line-height: 120px;
 	font-size: 50px;
-	font-weight: bold;
 }
 
 .input_container .title {
@@ -55,8 +62,9 @@ input[type=checkbox] {
 }
 
 .input_container input {
-	height: 80px;
-	font-size: 40px;
+	height: 50px;
+	font-size: 50px;
+	vertical-align: middle;
 }
 
 .button_confirm {

@@ -8,13 +8,13 @@
 }
 
 .userLogin_input label {
-	width: 20%;
+	width: 15%;
 	display: inline-block;
 }
 
 .userLogin_input label + input,
 .userLogin_input label + div {
-	width: 70%;
+	width: 65%;
 	display: inline-block;
 }
 
@@ -25,16 +25,16 @@
 .verificationCode_input {
 	min-width: 120px;
 	max-width: 300px;
-	width: 150px;
+	width: 200px;
 	height: 80px;
 	font-size: 40px;
 	display: inline-block;
 }
 
 .verificationCode_img {
-	height: 86px;
+	height: 80px;
 	vertical-align: middle;
-	margin-top: -3px;
+	margin-top: -10px;
 }
 
 .userLogin_indicator {
@@ -42,14 +42,12 @@
 	display: inline-block;
 	line-height: 40px;
 	font-size: 40px;
-	font-weight: normal;
 	margin: 20px 0 20px 0;
 	position: relative;
 }
 
 .userLogin_action {
 	font-size: 50px;
-	font-weight: bold;
 	position: relative;
 	margin-bottom: 150px;
 }
