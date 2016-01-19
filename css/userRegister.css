@@ -9,12 +9,12 @@
 }
 
 .userRegister_input label {
-	width: 30%;
+	width: 25%;
 	display: inline-block;
 }
 
 .userRegister_input label + input {
-	width: 60%;
+	width: 55%;
 	display: inline-block;
 }
 
