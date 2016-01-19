@@ -66,13 +66,12 @@
 
 .userLogin_action_mode {
 	width: 60%;
-	height: 60%;
 	margin: 0px auto 40px auto;
 	display: block;
 }
 
 .userLogin_action_split {
-	height: 26px;
+	width: 60%;
 	margin: 100px 0 20px 0;
 }
 
@@ -83,7 +82,6 @@
 
 .userLogin_action_thirdParty_item {
 	width: 40%;
-	height: 40%;
 	padding: 0 10px;
 }
 
@@ -99,12 +97,10 @@
 
 .prelogin_top_img {
 	width: 80%;
-	height: 80%;
 	padding-top: 10%;
 }
 
 .prelogin_top_url {
 	width: 60%;
-	height: 60%;
 	margin-top: 50px;
 }
