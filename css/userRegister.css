@@ -1,0 +1,35 @@
+.userRegister_input {
+	padding-top: 100px;
+	position: relative;
+	background: #fff;
+}
+
+.userRegister_input .title {
+	background: #eee;
+}
+
+.userRegister_input label {
+	width: 30%;
+	display: inline-block;
+}
+
+.userRegister_input label + input {
+	width: 60%;
+	display: inline-block;
+}
+
+.userRegister_indicator {
+	text-align: right;
+	line-height: 40px;
+	font-size: 40px;
+	font-weight: normal;
+	margin: 20px 5% 20px 0;
+	position: relative;
+}
+
+.userRegister_action {
+	font-size: 50px;
+	font-weight: bold;
+	position: relative;
+	margin-bottom: 150px;
+}
