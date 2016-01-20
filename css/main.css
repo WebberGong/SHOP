@@ -59,6 +59,7 @@ input[type=text] {
 .input_container label {
 	height: 60px;
 	font-size: 50px;
+	line-height: 60px;
 	text-align: right;
 	white-space: nowrap;
 	vertical-align: middle;
@@ -69,6 +70,7 @@ input[type=text] {
 .input_container input {
 	height: 60px;
 	font-size: 50px;
+	line-height: 60px;
 	vertical-align: middle;
 	color: #979797;
 }
