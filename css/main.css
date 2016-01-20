@@ -57,6 +57,7 @@ input[type=text] {
 }
 
 .input_container label {
+	font-size: 55px;
 	text-align: right;
 	white-space: nowrap;
 	vertical-align: middle;
