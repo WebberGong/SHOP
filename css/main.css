@@ -36,7 +36,7 @@ input[type=checkbox] {
 	vertical-align: middle;
 }
 
-input[type=text] {
+input_container input[type=text] {
 	border-top: 0;
 	border-left: 0;
 	border-right: 0;
@@ -44,6 +44,14 @@ input[type=text] {
 	outline: none;
 	background: transparent;
 	border-radius: 0;
+}
+
+.input_round {
+	border: 2px solid #ccc;
+	outline: none;
+	border-radius: 30px;
+	background: #eee;
+	padding: 0 30px;
 }
 
 .input_container {

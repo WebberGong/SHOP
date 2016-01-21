@@ -1,0 +1,40 @@
+.category_container {
+	text-align: center;
+	position: relative;
+}
+
+.category {
+	height: 100px;
+	width: 100%;
+	background: #eee;
+	display: inline-block;
+	white-space: nowrap;
+}
+
+.category div {
+	position: relative;
+	width: 24%;
+	display: inline-block;
+}
+
+.category_top {
+	padding-top: 100px;
+}
+
+#search_goods {
+	width: 50%;
+	height: 60px;
+	vertical-align: middle;
+	text-align: left;
+	float: left;
+	margin: 10px 0 10px 20px;
+	font-size: 50px;
+}
+
+#lbl_bargain_goods {
+	float: right;
+	height: 60px;
+	margin: 10px 20px 10px 0;
+	font-size: 50px;
+	vertical-align: middle;
+}
