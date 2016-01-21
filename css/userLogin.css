@@ -1,5 +1,5 @@
 .userLogin_input {
-	padding-top: 100px;
+	padding-top: 45px;
 	position: relative;
 	background: #fff;
 }
@@ -23,31 +23,31 @@
 }
 
 .verificationCode_input {
-	min-width: 120px;
-	max-width: 300px;
-	width: 200px;
-	font-size: 50px;
+	min-width: 60px;
+	max-width: 150px;
+	width: 100px;
+	font-size: 25px;
 	display: inline-block;
 }
 
 .verificationCode_img {
-	height: 60px;
+	height: 30px;
 	vertical-align: middle;
 }
 
 .userLogin_indicator {
 	width: 80%;
 	display: inline-block;
-	line-height: 40px;
-	font-size: 40px;
+	line-height: 20px;
+	font-size: 20px;
 	margin: 20px 0 20px 0;
 	position: relative;
 }
 
 .userLogin_action {
-	font-size: 50px;
+	font-size: 25px;
 	position: relative;
-	margin-bottom: 150px;
+	margin-bottom: 45px;
 }
 
 #lblAutoLogin {
@@ -59,18 +59,18 @@
 }
 
 .userLogin_action_top {
-	padding-top: 20px;
+	padding-top: 10px;
 }
 
 .userLogin_action_mode {
 	width: 60%;
-	margin: 0px auto 40px auto;
+	margin: 0px auto 20px auto;
 	display: block;
 }
 
 .userLogin_action_split {
 	width: 60%;
-	margin: 100px 0 20px 0;
+	margin: 0 0 10px 0;
 }
 
 .userLogin_action_thirdParty {
@@ -100,5 +100,5 @@
 
 .prelogin_top_url {
 	width: 60%;
-	margin-top: 50px;
+	margin-top: 25px;
 }

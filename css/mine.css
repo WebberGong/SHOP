@@ -1,5 +1,5 @@
 .mine {
-	padding: 100px 0 150px 0;
+	padding: 45px 0 45px 0;
 	position: relative;
 }
 
@@ -8,17 +8,18 @@
 	-moz-background-size: 100% 100%;
 	background-size: 100% 100%;
 	width: 100%;
-	height: 100%;
-	box-shadow: 0px 0 8px 0 #000;
+	height: 200px;
+	box-shadow: 0px 0 4px 0 #000;
 }
 
 .mine_avatar {
-	margin: 30px 0 30px 0;
+	margin: 10px 0 10px 0;
+	height: 100px;
 }
 
 .mine_statistics_container {
 	text-align: center;
-	padding: 10px 0;
+	padding: 5px 0;
 }
 
 .mine_statistics {
@@ -34,16 +35,16 @@
 }
 
 .mine_statistics div img {
-	height: 40px;
+	height: 20px;
 }
 
 .mine_statistics div span {
-	font-size: 40px;
+	font-size: 20px;
 	color: #fff;
 }
 
 .mine_statistics .mine_statistics_split {
-	height: 85px;
+	height: 50px;
 }
 
 
@@ -52,7 +53,7 @@
 }
 
 .mine_menu {
-	height: 100px;
+	height: 50px;
 	width: 100%;
 	background: #eee;
 	display: inline-block;
@@ -66,14 +67,14 @@
 }
 
 .mine_menu img:nth-child(1) {
-	height: 50px;
-	margin: 25px 0;
+	height: 25px;
+	margin: 18px 0;
 	display: inline;
 }
 
 .mine_menu img:nth-child(2) {
-	height: 50px;
-	margin: 25px 0;
+	height: 25px;
+	margin: 18px 0;
 	display: none;
 }
 
@@ -82,7 +83,7 @@
 	width: 80%;
 	display: none;
 	position: absolute;
-	bottom: -1px;
+	bottom: 12px;
 	left: 10%;
 }
 
@@ -100,7 +101,7 @@
 
 .mine_product_container {
 	text-align: center;
-	padding: 30px 0;
+	padding: 15px 0;
 	background: #fff;
 }
 
@@ -140,6 +141,6 @@
 	position: absolute;
 	top: 10px;
 	right: 10px;
-	width: 40px;
-	height: 40px;
+	width: 25px;
+	height: 25px;
 }

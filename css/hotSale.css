@@ -1,6 +1,6 @@
 .hotSale_container {
 	text-align: center;
-	margin: 100px 0 100px 0;
+	margin: 45px 0 40px 0;
 }
 
 .hotSale {
@@ -39,6 +39,6 @@
 	position: absolute;
 	top: 10px;
 	right: 10px;
-	width: 40px;
-	height: 40px;
+	width: 25px;
+	height: 25px;
 }
