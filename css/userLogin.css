@@ -26,15 +26,13 @@
 	min-width: 120px;
 	max-width: 300px;
 	width: 200px;
-	height: 80px;
-	font-size: 40px;
+	font-size: 50px;
 	display: inline-block;
 }
 
 .verificationCode_img {
-	height: 80px;
+	height: 60px;
 	vertical-align: middle;
-	margin-top: -10px;
 }
 
 .userLogin_indicator {
