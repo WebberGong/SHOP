@@ -52,7 +52,7 @@ input[type=checkbox] {
 	outline: none;
 	border-radius: 1rem;
 	background: #eee;
-	padding: 0 1.5rem;
+	padding: 0 0.8rem;
 }
 
 .input_container {

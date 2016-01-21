@@ -1,5 +1,5 @@
 .userRegister_input {
-	padding-top: 45px;
+	padding-top: 4rem;
 	position: relative;
 	background: #fff;
 }
@@ -20,14 +20,14 @@
 
 .userRegister_indicator {
 	text-align: right;
-	line-height: 20px;
-	font-size: 20px;
-	margin: 20px 5% 20px 0;
+	line-height: 1.6rem;
+	font-size: 1.6rem;
+	margin: 1rem 5% 1rem 0;
 	position: relative;
 }
 
 .userRegister_action {
-	font-size: 25px;
+	font-size: 1.6rem;
 	position: relative;
-	margin-bottom: 45px;
+	margin-bottom: 3.8rem;
 }
