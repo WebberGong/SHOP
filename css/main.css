@@ -61,12 +61,12 @@ input[type=checkbox] {
 }
 
 .input_container .title {
-	font-size: 2.2rem;
+	font-size: 2rem;
 	line-height: 4rem;
 }
 
 .input_container label {
-	font-size: 2rem;
+	font-size: 1.8rem;
 	text-align: right;
 	white-space: nowrap;
 	vertical-align: middle;
@@ -75,7 +75,7 @@ input[type=checkbox] {
 }
 
 .input_container input {
-	font-size: 1.8rem;
+	font-size: 1.6rem;
 	vertical-align: middle;
 	color: #979797;
 }
@@ -142,14 +142,14 @@ input[type=checkbox] {
 	width: 4rem;
 	height: 4rem;
 	float: left;
-	margin: 0.2rem 0 0.3rem 0.5rem;
+	margin-left: 0.5rem;
 }
 
 .header_shopping_cart {
-	width: 3.5rem;
-	height: 3.5rem;
+	width: 3rem;
+	height: 3rem;
 	float: right;
-	margin: 0.5rem 1.2rem 0.5rem 0;
+	margin: 0.4rem 1.2rem 0.4rem 0;
 }
 
 .footer {
