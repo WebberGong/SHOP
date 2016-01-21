@@ -1,0 +1,44 @@
+.hotSale_container {
+	text-align: center;
+	margin: 100px 0 100px 0;
+}
+
+.hotSale {
+	width: 100%;
+	text-align: left;
+	display: inline-block;
+}
+
+.hotSale div {
+	position: relative;
+	width: 100%;
+	display: inline-block;
+}
+
+.hotSale img:nth-child(2) {
+	display: inline;
+}
+
+.hotSale img:nth-child(3) {
+	display: none;
+}
+
+.hotSale .hotSale_favour img:nth-child(2) {
+	display: none;
+}
+
+.hotSale .hotSale_favour img:nth-child(3) {
+	display: inline;
+}
+
+.hotSale img {
+	width: 100%;
+}
+
+.hotSale .heart {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	width: 40px;
+	height: 40px;
+}
