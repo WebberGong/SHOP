@@ -113,7 +113,7 @@
 
 .mine_product div {
 	position: relative;
-	width: 30%;
+	width: 32%;
 	display: inline-block;
 }
 
@@ -141,6 +141,6 @@
 	position: absolute;
 	top: 0.8rem;
 	right: 0.8rem;
-	width: 2.2rem;
-	height: 2.2rem;
+	width: 2rem;
+	height: 2rem;
 }
