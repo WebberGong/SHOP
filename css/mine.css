@@ -13,8 +13,8 @@
 }
 
 .mine_avatar {
-	margin: 1rem 0 1rem 0;
-	height: 10rem;
+	margin: 0.8rem 0 0.8rem 0;
+	height: 8rem;
 }
 
 .mine_statistics_container {
@@ -35,16 +35,16 @@
 }
 
 .mine_statistics div img {
-	height: 1.8rem;
+	height: 1.6rem;
 }
 
 .mine_statistics div span {
-	font-size: 1.8rem;
+	font-size: 1.6rem;
 	color: #fff;
 }
 
 .mine_statistics .mine_statistics_split {
-	height: 5rem;
+	height: 3.5rem;
 }
 
 
@@ -53,7 +53,7 @@
 }
 
 .mine_menu {
-	height: 4rem;
+	height: 3.6rem;
 	width: 100%;
 	background: #eee;
 	display: inline-block;
@@ -67,14 +67,14 @@
 }
 
 .mine_menu img:nth-child(1) {
-	height: 2.2rem;
-	margin: 0.9rem 0;
+	height: 2rem;
+	margin: 0.8rem 0;
 	display: inline;
 }
 
 .mine_menu img:nth-child(2) {
-	height: 2.2rem;
-	margin: 0.9rem 0;
+	height: 2rem;
+	margin: 0.8rem 0;
 	display: none;
 }
 
