@@ -48,7 +48,7 @@
 .userLogin_action {
 	font-size: 1.6rem;
 	position: relative;
-	margin-bottom: 3.8rem;
+	padding-bottom: 3.8rem;
 }
 
 #lblAutoLogin {
@@ -64,15 +64,15 @@
 }
 
 .userLogin_action_mode {
-	height: 3.5rem;
+	height: 3rem;
 	margin: 0 auto 2rem auto;
 	display: block;
 }
 
 .userLogin_action_split {
-	width: 60%;
-	margin-top: 3rem;
-	margin-bottom: 1rem;
+	width: 80%;
+	margin-top: 2rem;
+	margin-bottom: 0.5rem;
 }
 
 .userLogin_action_thirdParty {
@@ -81,7 +81,7 @@
 }
 
 .userLogin_action_thirdParty_item {
-	height: 5.5rem;
+	height: 5rem;
 	padding: 0 0.8rem;
 }
 
