@@ -37,7 +37,8 @@ input[type=checkbox] {
 	vertical-align: middle;
 }
 
-.input_container input[type=text] {
+.input_container input[type=text],
+.input_container input[type=password] {
 	border-top: 0;
 	border-left: 0;
 	border-right: 0;
