@@ -1,9 +1,13 @@
 .categoryNavigation {
 	position: relative;
 	padding-top: 5rem;
+	padding-bottom: 4rem;
 	text-align: center;
 	background: #eee;
 	height: 100%;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
 }
 
 .categoryNavigation_search {
