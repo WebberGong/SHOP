@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="all_scope">
 
 	<head>
 		<meta charset="UTF-8">
@@ -9,12 +9,22 @@
 		<link rel="stylesheet" href="css/userLogin.css" />
 	</head>
 
-	<body>
+	<body class="all_scope">
 		<div class="header">
 			<div class="header_content">
-				<img src="image/page_header/arrow.png" class="header_arrow" />
-				<img src="image/page_header/words.png" class="header_words" /> 
-				<img src="image/page_header/shopping_cart.png" class="header_shopping_cart" />
+				<div class="header_left">
+					<img src="image/page_header/arrow.png" class="header_arrow" />
+				</div>
+				<div class="header_right">
+					<div class="header_login">
+						<img src="image/page_header/userLogin.png" align="absmiddle" />登录
+					</div>
+					<div class="header_login">
+						<img src="image/page_header/userRegister.png" align="absmiddle" />注册
+					</div>
+					<img src="image/page_header/shopping_cart.png" class="header_shopping_cart" />
+				</div>
+				<img src="image/page_header/words.png" class="header_words" />
 			</div>
 		</div>
 		<div class="main main_size">
@@ -27,7 +37,7 @@
 				</div>
 				<div>
 					<label>密码</label>
-					<input type="password" />
+					<input type="text" />
 				</div>
 				<div>
 					<label>验证码</label>

@@ -51,9 +51,9 @@ input[type=checkbox] {
 .input_round {
 	border: 0.1rem solid #ccc;
 	outline: none;
-	border-radius: 1rem;
-	background: #eee;
-	padding: 0 0.8rem;
+	border-radius: 1.5rem;
+	background: #fff;
+	padding: 0 1rem;
 }
 
 .input_container {
@@ -147,18 +147,37 @@ input[type=checkbox] {
 	margin: 1rem 0 1rem 0;
 }
 
-.header_arrow {
-	width: 4rem;
-	height: 4rem;
+.header_left {
 	float: left;
+}
+
+.header_right {
+	float: right;
+}
+
+.header_login {
+	font-size: 1.4rem;
+	display: inline-block;
+	color: #979797;
+	margin-right: 1rem;
+}
+
+.header_login img {
+	height: 3rem;
+	margin: 0.5rem 0.5rem 0.5rem 0;
+	vertical-align: middle;
+}
+
+.header_arrow {
+	height: 4rem;
 	margin-left: 0.5rem;
 }
 
 .header_shopping_cart {
-	width: 3rem;
+	display: inline-block;
 	height: 3rem;
-	float: right;
-	margin: 0.5rem 1.2rem 0.5rem 0;
+	margin: -0.3rem 1.2rem 0 0;
+	vertical-align: middle;
 }
 
 .footer {
