@@ -179,11 +179,11 @@ input[type=checkbox] {
 	vertical-align: middle;
 }
 
-.header_right .header_login {
+.float_right .header_login {
 	display: inline;
 }
 
-.header_right .header_shopping_cart {
+.float_right .header_shopping_cart {
 	display: none;
 }
 
