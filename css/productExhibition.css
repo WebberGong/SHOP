@@ -1,0 +1,109 @@
+.productExhibition {
+	padding: 4rem 0 3.8rem 0;
+	position: relative;
+	height: 100%;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+.productExhibition_menu_container {
+	text-align: center;
+}
+
+.productExhibition_menu {
+	height: 5rem;
+	width: 100%;
+	background: #eee;
+	display: inline-block;
+	white-space: nowrap;
+}
+
+.productExhibition_menu div {
+	position: relative;
+	width: 24%;
+	display: inline-block;
+}
+
+.productExhibition_menu img:nth-child(1) {
+	height: 2rem;
+	margin: 1.5rem 0;
+	display: inline;
+}
+
+.productExhibition_menu img:nth-child(2) {
+	height: 2rem;
+	margin: 1.5rem 0;
+	display: none;
+}
+
+.productExhibition_menu .home img:nth-child(1) {
+	height: 3rem;
+	margin: 1rem 0;
+	display: inline;
+}
+
+.productExhibition_menu .home img:nth-child(2) {
+	height: 3rem;
+	margin: 1rem 0;
+	display: none;
+}
+
+.productExhibition_menu img:nth-child(3) {
+	height: 0.4rem;
+	width: 80%;
+	display: none;
+	position: absolute;
+	bottom: -0.1rem;
+	left: 10%;
+}
+
+.productExhibition_menu .productExhibition_menu_selected img:nth-child(1) {
+	display: none;
+}
+
+.productExhibition_menu .productExhibition_menu_selected img:nth-child(2) {
+	display: inline;
+}
+
+.productExhibition_menu .productExhibition_menu_selected img:nth-child(3) {
+	display: inline;
+}
+
+.productExhibition_action {
+	bottom: 4rem;
+	position: fixed;
+	padding: 1rem;
+	width: 100%;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	bottom: 4rem;
+	max-width: 64rem;
+}
+
+.productExhibition_action .float_left div {
+	font-size: 1.6rem;
+}
+
+.productExhibition_action .float_left img {
+	height: 3rem;
+}
+
+.productExhibition_action .float_left > div {
+	padding-right: 3rem;
+	display: inline-block;
+}
+
+.productExhibition_action .float_right div {
+	font-size: 2.2rem;
+	color: #fff;
+	height: 5.5rem;
+	line-height: 5.5rem;
+	width: 12rem;
+	display: inline-block;
+}
+
+.productExhibition_content {
+	padding-bottom: 9.5rem;
+}

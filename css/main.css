@@ -116,6 +116,14 @@ input[type=checkbox] {
 	max-width: 64rem;
 }
 
+.float_left {
+	float: left;
+}
+
+.float_right {
+	float: right;
+}
+
 .clear_float {
 	clear: both;
 }
@@ -150,14 +158,6 @@ input[type=checkbox] {
 	width: auto;
 	height: 2rem;
 	margin: 1rem 0 1rem 0;
-}
-
-.header_left {
-	float: left;
-}
-
-.header_right {
-	float: right;
 }
 
 .header_login {
