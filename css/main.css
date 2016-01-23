@@ -141,6 +141,11 @@ input[type=checkbox] {
 	white-space: nowrap;
 }
 
+.header_arrow {
+	height: 4rem;
+	margin-left: 0.5rem;
+}
+
 .header_words {
 	width: auto;
 	height: 2rem;
@@ -168,16 +173,26 @@ input[type=checkbox] {
 	vertical-align: middle;
 }
 
-.header_arrow {
-	height: 4rem;
-	margin-left: 0.5rem;
+.header_shopping_cart {
+	height: 3rem;
+	margin: 0.5rem 1.2rem 0.5rem 0;
+	vertical-align: middle;
 }
 
-.header_shopping_cart {
-	display: inline-block;
-	height: 3rem;
-	margin: -0.3rem 1.2rem 0 0;
-	vertical-align: middle;
+.header_right .header_login {
+	display: inline;
+}
+
+.header_right .header_shopping_cart {
+	display: none;
+}
+
+.login_success .header_login {
+	display: none;
+}
+
+.login_success .header_shopping_cart {
+	display: inline;
 }
 
 .footer {
