@@ -7,6 +7,30 @@
 		<title></title>
 		<link rel="stylesheet" href="css/main.css" />
 		<link rel="stylesheet" href="css/hotSale.css" />
+		<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+		<script type="application/javascript">
+			function scaleProduct(element) {
+				$(element).css('border', '0.5rem solid red');
+			}
+			
+			function clearSale(element) {
+				$(element).css('border', 'none');
+			}
+			
+			function productClick(element) {
+				var border = $(element).css('border-color');
+				if (border === 'rgb(255, 0, 0)') {
+					alert("clicked");
+				}
+				else {
+					var imgs = $('.hotSale img:first-child');
+					for (var i = 0; i < imgs.length; i++) {
+						clearSale(imgs[i]);
+					}
+					scaleProduct(element);
+				}
+			}
+		</script>
 	</head>
 
 	<body>
@@ -29,22 +53,22 @@
 			<div class="hotSale_container">
 				<div class="hotSale">
 					<div class="hotSale_favour">
-						<img src="image/hotSale/01.png" />
+						<img src="image/hotSale/01.png" onclick="productClick(this);" />
 						<img class="heart" src="image/common/heart_gray.png" />
 						<img class="heart" src="image/common/heart_red.png" />
 					</div>
 					<div class="hotSale_favour">
-						<img src="image/hotSale/02.png" />
+						<img src="image/hotSale/02.png" onclick="productClick(this);" />
 						<img class="heart" src="image/common/heart_gray.png" />
 						<img class="heart" src="image/common/heart_red.png" />
 					</div>
 					<div>
-						<img src="image/hotSale/03.png" />
+						<img src="image/hotSale/03.png" onclick="productClick(this);" />
 						<img class="heart" src="image/common/heart_gray.png" />
 						<img class="heart" src="image/common/heart_red.png" />
 					</div>
 					<div class="hotSale_favour">
-						<img src="image/hotSale/04.png" />
+						<img src="image/hotSale/04.png" onclick="productClick(this);" />
 						<img class="heart" src="image/common/heart_gray.png" />
 						<img class="heart" src="image/common/heart_red.png" />
 					</div>

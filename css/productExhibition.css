@@ -92,15 +92,10 @@
 	display: inline-block;
 }
 
-.productExhibition_content {
-	padding-bottom: 9.5rem;
-	position: relative;
-}
-
 .productExhibition_top_right {
 	position: absolute;
-	top: 10px;
-	right: 10px;
+	top: 10rem;
+	right: 1rem;
 }
 
 .productExhibition_top_right div {
