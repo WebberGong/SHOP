@@ -21,7 +21,7 @@
 
 .productExhibition_menu div {
 	position: relative;
-	width: 24%;
+	width: 32%;
 	display: inline-block;
 }
 
@@ -80,30 +80,37 @@
 	-webkit-box-sizing: border-box;
 	bottom: 4rem;
 	max-width: 64rem;
+	white-space: nowrap;
 }
 
-.productExhibition_action .float_left div {
-	font-size: 1.6rem;
-}
-
-.productExhibition_action .float_left img {
-	height: 3rem;
-}
-
-.productExhibition_action .float_left > div {
-	padding-right: 3rem;
-	display: inline-block;
-}
-
-.productExhibition_action .float_right div {
-	font-size: 1.6rem;
+.productExhibition_action div {
+	font-size: 2rem;
 	color: #fff;
-	height: 5.5rem;
-	line-height: 5.5rem;
-	width: 8.5rem;
+	height: 4rem;
+	line-height: 4rem;
+	width: 48%;
 	display: inline-block;
 }
 
 .productExhibition_content {
 	padding-bottom: 9.5rem;
+	position: relative;
+}
+
+.productExhibition_top_right {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+.productExhibition_top_right div {
+	font-size: 1.6rem;
+}
+
+.productExhibition_top_right img {
+	height: 3rem;
+}
+
+.productExhibition_top_right > div {
+	padding: 10px 0;
 }
